@@ -1,11 +1,14 @@
-﻿using System;
+﻿using Lab6_IbuiltAZoo.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    private class Narwhal : NoLegs
+    abstract class Narwhal : NoLegs, ISwim
     {
-        private virtual bool hasHorn { get; set; } = true;
+        public bool CanFloat { get; set; } = true;
+        public bool HaveFins { get; set; } = true;
+        public override bool HasHorn { get; set; } = true;
     }
 }

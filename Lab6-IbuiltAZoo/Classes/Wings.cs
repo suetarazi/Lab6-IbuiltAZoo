@@ -4,9 +4,14 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    protected class Wings : LandAnimals
+    abstract class Wings : LandAnimals
     {
-        protected abstract int wingspan { get; set; } = 0;
-        protected virtual Speed();
+        public abstract int Wingspan { get; set; }
+        
+        public override string MoveAround()
+        {
+            return "This animal can fly";
+
+        }
     }
 }

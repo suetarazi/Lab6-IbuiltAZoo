@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    private class Hippo : HasLegs
+    abstract class Hippo : HasLegs
     {
-        private override string coatType { get; set; } = "skin";
-        private override string Eats()
+        public override string CoatType { get; set; } = "skin";
+        public override string Eats()
         {
             return ("cheesecake");
         }

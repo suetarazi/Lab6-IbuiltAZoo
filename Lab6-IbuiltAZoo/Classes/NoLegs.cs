@@ -4,10 +4,17 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    protected class NoLegs : WaterAnimals
+    abstract class NoLegs : WaterAnimals
     {
         //protected virtual string Eats();
         //protected override string Sleeps();
-        protected abstract string coatType { get; set; } = "null";
+        public abstract bool HasHorn { get; set; }
+
+        public override string MoveAround()
+
+        {
+            return "This animal swims";
+        }
+        
     }
 }

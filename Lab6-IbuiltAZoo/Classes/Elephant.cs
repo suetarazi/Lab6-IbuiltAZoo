@@ -1,12 +1,19 @@
-﻿using System;
+﻿using Lab6_IbuiltAZoo.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    private class Elephant : NoWings
+    class Elephant : NoWings, IFly
     {
-        private virtual bool hasTrunk { get; set; } = true;
-        private virtual int Speed(int mph = 10);
+        public virtual bool HasTrunk { get; set; } = true;
+        public bool HasWings { get; set; } = false;
+        public int Velocity { get; set; } = 10;
+
+        public virtual int Speed()
+        {
+            return 10;
+        }
     }
 }

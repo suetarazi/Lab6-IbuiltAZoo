@@ -5,13 +5,19 @@ using System.Text;
 namespace Lab6_IbuiltAZoo.Classes
 {
     //this class is derived from Animals
-    public abstract class LandAnimals : Animals
+    abstract class LandAnimals : Animals
     {
-        public override string MoveAround();
-        public virtual int Speed()
+        public override string MoveAround()
         {
-            int mph = 0;
-            return "This animal's top speed is {mph} miles per hour";
+           
+            return "These animals can move!";
+        }
+
+        public virtual int Speed()
+
+        {
+            
+            return 0;
         }
 
     }

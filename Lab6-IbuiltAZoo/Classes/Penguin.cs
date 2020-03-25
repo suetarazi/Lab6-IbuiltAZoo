@@ -1,14 +1,17 @@
-﻿using System;
+﻿using Lab6_IbuiltAZoo.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace Lab6_IbuiltAZoo.Classes
 {
-    private class Penguin : HasLegs
+    abstract class Penguin : HasLegs
     {
-        private override string coatType { get; set; } = "feathers";
 
-        private override string Eats()
+        public override string CoatType { get; set; } = "feathers";
+
+        public override string Eats()
         {
             return "fish";
         }

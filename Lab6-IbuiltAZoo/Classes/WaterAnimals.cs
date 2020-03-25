@@ -4,10 +4,12 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    public abstract class WaterAnimals : Animals
+    abstract class WaterAnimals : Animals
     {
-        public override string MoveAround();
-        public virtual string Eats();
+        public virtual string Eats()
+        {
+            return "Eats fish";
+        }
         public abstract string Sleeps();
     }
 }

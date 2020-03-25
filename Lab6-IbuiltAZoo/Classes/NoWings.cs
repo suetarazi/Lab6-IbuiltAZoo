@@ -4,13 +4,17 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    protected class NoWings : LandAnimals
+    abstract class NoWings : LandAnimals
     {
-        protected virtual bool hasTrunk = true;
-        protected virtual Speed()
+        public virtual bool HasTrunk { get; set; } 
+
+        public override string MoveAround()
         {
-            int mph = 0;
-            return ("This animals top speed is {mph} kilometers per hour");
+         
+            return "This animal can walk or run";
+
         }
     }
-}
+        
+    }
+
