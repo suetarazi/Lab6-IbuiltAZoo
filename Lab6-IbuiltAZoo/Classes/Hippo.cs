@@ -6,7 +6,10 @@ namespace Lab6_IbuiltAZoo.Classes
 {
     private class Hippo : HasLegs
     {
-        private override string coatType = "skin";
-        private override Eats();
+        private override string coatType { get; set; } = "skin";
+        private override string Eats()
+        {
+            return ("cheesecake");
+        }
     }
 }

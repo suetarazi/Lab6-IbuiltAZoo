@@ -6,7 +6,7 @@ namespace Lab6_IbuiltAZoo.Classes
 {
     protected class Wings : LandAnimals
     {
-        protected abstract int wingspan = 0;
+        protected abstract int wingspan { get; set; } = 0;
         protected virtual Speed();
     }
 }

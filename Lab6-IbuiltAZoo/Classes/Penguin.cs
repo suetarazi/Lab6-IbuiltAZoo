@@ -6,8 +6,11 @@ namespace Lab6_IbuiltAZoo.Classes
 {
     private class Penguin : HasLegs
     {
-        private override string coatType = "feathers";
+        private override string coatType { get; set; } = "feathers";
 
-        private override Eats();
+        private override string Eats()
+        {
+            return "fish";
+        }
     }
 }

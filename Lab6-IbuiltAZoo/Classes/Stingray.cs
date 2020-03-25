@@ -6,6 +6,6 @@ namespace Lab6_IbuiltAZoo.Classes
 {
     private class Stingray : NoLegs
     {
-        private virtual bool hasHorn = false;
+        private virtual bool hasHorn { get; set; }  = false;
     }
 }

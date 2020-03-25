@@ -6,7 +6,9 @@ namespace Lab6_IbuiltAZoo.Classes
 {
     private class BaldEagle : Wings
     {
-        private override int wingspan = 60;
+        private override int wingspan { get; set; } = 60;
+        private virtual int Speed(int mph = 75);
         
+
     }
 }

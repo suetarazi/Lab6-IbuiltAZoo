@@ -8,7 +8,11 @@ namespace Lab6_IbuiltAZoo.Classes
     public abstract class LandAnimals : Animals
     {
         public override string MoveAround();
-        public virtual int Speed();
+        public virtual int Speed()
+        {
+            int mph = 0;
+            return "This animal's top speed is {mph} miles per hour";
+        }
 
     }
 }
