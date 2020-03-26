@@ -37,7 +37,8 @@ Then select and open ```Lab6-IbuiltAZoo.sln```
 
 ### Visuals
 ***[Add screenshots of your application in action]***
-
+#### Chart of Classes
+[Chart of Classes](https://files.slack.com/files-tmb/T039KG69K-F010DHUA7U2-16006027e6/img_8704_1024.jpg)
 #### Application Start
 ![Image 1](https://via.placeholder.com/750x500)
 #### Using the Application
