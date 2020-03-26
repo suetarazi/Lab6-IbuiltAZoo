@@ -15,6 +15,7 @@ This application also makes use of interfaces, which contain method signatures o
 * Abstraction = defines a template and is often used to derive a class down. It can not be instantiated. In our app, WaterAnimals and LandAnimals were abstract classes, so derived classes down the line could use their properties. 
 * Polymorphism = the ability to change the behaviors and values of selected methods. In our app, we used 'override'to override the Wingspan property in the BaldEagle class. We also used 'override' to override the method MoveAround() in the NoLegs class.
 * Encapsulation = the grouping together of specific information for reusability or access requirements. We used public and protected modifiers in our Pegasus class.
+* Interfaces tell us what a class can do. Interfaces are implemented on one or more classes. They allow us to "code by contract", which means they allow us to give the functionality the contain to a specific class we specify. In our app, the BaldEagle, Pegasus and Elephant classes all use the IFly interface and the Pegasus, Hippo, Penguin, Narwhal and Stingray classes use the ISwim interface. 
 ---
 
 ### Getting Started
