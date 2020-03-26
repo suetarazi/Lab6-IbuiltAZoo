@@ -10,5 +10,15 @@ namespace Lab6_IbuiltAZoo.Classes
         public bool CanFloat { get; set; } = true;
         public bool HaveFins { get; set; } = true;
         public override bool HasHorn { get; set; } = true;
+
+        public string Sleep()
+        {
+            return ("This animal sleeps while swimming");
+        }
+
+        public override string Eats()
+        {
+            return "chocolate ice cream";
+        }
     }
 }

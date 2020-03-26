@@ -15,5 +15,10 @@ namespace Lab6_IbuiltAZoo.Classes
         {
             return "fish";
         }
+
+        public string Sleep()
+        {
+            return ("This animal sleeps lying down");
+        }
     }
 }

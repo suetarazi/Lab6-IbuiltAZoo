@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    abstract class WaterAnimals : Animals
+    public abstract class WaterAnimals : Animals
     {
         public virtual string Eats()
         {

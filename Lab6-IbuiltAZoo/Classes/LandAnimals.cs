@@ -5,7 +5,7 @@ using System.Text;
 namespace Lab6_IbuiltAZoo.Classes
 {
     //this class is derived from Animals
-    abstract class LandAnimals : Animals
+    public abstract class LandAnimals : Animals
     {
         public override string MoveAround()
         {

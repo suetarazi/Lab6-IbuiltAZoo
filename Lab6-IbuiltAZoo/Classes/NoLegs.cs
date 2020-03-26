@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    abstract class NoLegs : WaterAnimals
+    public abstract class NoLegs : WaterAnimals
     {
         //protected virtual string Eats();
         //protected override string Sleeps();

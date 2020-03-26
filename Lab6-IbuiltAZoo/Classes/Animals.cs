@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    abstract class Animals
+    /// <summary>
+    /// Base class Animals
+    /// </summary>
+    public abstract class Animals
     {
         public virtual int BreathsPerMinute { get; set; }
         public abstract string MoveAround();

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    abstract class Wings : LandAnimals
+    public abstract class Wings : LandAnimals
     {
         public abstract int Wingspan { get; set; }
         

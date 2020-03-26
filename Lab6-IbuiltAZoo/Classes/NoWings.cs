@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    abstract class NoWings : LandAnimals
+    public abstract class NoWings : LandAnimals
     {
         public virtual bool HasTrunk { get; set; } 
 
