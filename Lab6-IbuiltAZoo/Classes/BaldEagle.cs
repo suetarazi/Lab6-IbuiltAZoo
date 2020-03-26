@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
+    /// <summary>
+    /// Derived from Wings and uses the IFly interface
+    /// </summary>
     class BaldEagle : Wings, IFly
     {
         public override int Wingspan { get; set; } = 60;
@@ -13,7 +16,8 @@ namespace Lab6_IbuiltAZoo.Classes
 
         protected virtual int Speed()
         {
-            return 75;
+            string speed = "75";
+            return ("{Name} can fly over {speed} mph", Name, speed);
         }
         
 

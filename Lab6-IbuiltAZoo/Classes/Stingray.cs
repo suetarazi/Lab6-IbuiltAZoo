@@ -7,6 +7,9 @@ namespace Lab6_IbuiltAZoo.Classes
 {
     abstract class Stingray : NoLegs, ISwim
     {
+        /// <summary>
+        /// Derived from the NoLegs class and uses the ISwim interface
+        /// </summary>
         public bool CanFloat { get; set; } = true;
         public bool HaveFins { get; set; } = true;
         public override bool HasHorn { get; set; }  = false;

@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
+    /// <summary>
+    /// This class is derived from WaterAnimals and is a base class for Narwhal and Stingray
+    /// </summary>
     public abstract class NoLegs : WaterAnimals
     {
         //protected virtual string Eats();

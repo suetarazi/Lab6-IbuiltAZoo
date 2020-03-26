@@ -5,20 +5,23 @@ using System.Text;
 
 
 namespace Lab6_IbuiltAZoo.Classes
-{
-    abstract class Penguin : HasLegs
+{   
+    /// <summary>
+    /// Derived from the HasLegs class
+    /// </summary>
+    public class Penguin : HasLegs
     {
 
         public override string CoatType { get; set; } = "feathers";
 
         public override string Eats()
         {
-            return "fish";
+            return $"{Name} loves to eat fish";
         }
 
-        public string Sleep()
-        {
-            return ("This animal sleeps lying down");
-        }
+        //public override string Sleep()
+        //{
+        //    return ("This animal sleeps lying down");
+        //}
     }
 }

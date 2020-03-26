@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    //this class is derived from Animals
+
+
+    /// <summary>
+    /// This class is derived from Animals and is a base class for Wings and NoWings
+    /// </summary>
     public abstract class LandAnimals : Animals
     {
         public override string MoveAround()
@@ -13,11 +17,11 @@ namespace Lab6_IbuiltAZoo.Classes
             return "These animals can move!";
         }
 
-        public virtual int Speed()
+        public virtual string Speed()
 
         {
             
-            return 0;
+            return "0";
         }
 
     }

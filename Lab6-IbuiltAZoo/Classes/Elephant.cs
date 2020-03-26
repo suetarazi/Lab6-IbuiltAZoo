@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
+    /// <summary>
+    /// Derived from the NoWings class and uses the IFly interface
+    /// </summary>
     class Elephant : NoWings, IFly
     {
         public virtual bool HasTrunk { get; set; } = true;
