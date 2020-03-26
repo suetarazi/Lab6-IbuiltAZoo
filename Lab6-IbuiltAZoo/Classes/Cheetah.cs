@@ -8,15 +8,16 @@ namespace Lab6_IbuiltAZoo.Classes
     /// <summary>
     /// Derived from the NoWings class and uses the ISwim interface
     /// </summary>
-    abstract class Cheetah : NoWings, ISwim
+    public class Cheetah : NoWings, ISwim
     {
-        public virtual bool HasTrunk { get; set; } = false;
+        public override bool HasTrunk { get; set; } = false;
         public bool CanFloat { get; set; } = true;
         public bool HaveFins { get; set; } = false;
 
-        public virtual int Speed()
+        public override string Name { get; set; }
+        public override string Speed()
         {
-            return 80;
+            return "80";
         }
     }
 }

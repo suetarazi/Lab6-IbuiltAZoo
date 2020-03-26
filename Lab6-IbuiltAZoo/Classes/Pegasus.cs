@@ -8,7 +8,7 @@ namespace Lab6_IbuiltAZoo.Classes
     /// <summary>
     /// Derived from the Wings class and uses both the ISwim and IFly interfaces
     /// </summary>
-    class Pegasus : Wings, ISwim, IFly
+    public class Pegasus : Wings, ISwim, IFly
     {
         public override int Wingspan { get; set; } = 200;
         public bool CanFloat { get; set; } = true;

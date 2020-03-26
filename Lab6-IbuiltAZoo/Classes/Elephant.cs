@@ -8,7 +8,7 @@ namespace Lab6_IbuiltAZoo.Classes
     /// <summary>
     /// Derived from the NoWings class and uses the IFly interface
     /// </summary>
-    class Elephant : NoWings, IFly
+    public class Elephant : NoWings, IFly
     {
         public override bool HasTrunk { get; set; } = true;
         public bool HasWings { get; set; } = false;

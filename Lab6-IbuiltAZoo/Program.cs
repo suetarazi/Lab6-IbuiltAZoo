@@ -11,7 +11,7 @@ namespace Lab6_IbuiltAZoo
     /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
             Animals[] animals = new Animals[5];
             IFly[] fly = new IFly[3];
 
