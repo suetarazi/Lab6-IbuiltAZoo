@@ -16,9 +16,10 @@ namespace Lab6_IbuiltAZoo.Classes
         public bool HasWings { get; set; } = true;
         public int Velocity { get; set; } = 150;
 
-        protected virtual int Speed()
+        public override string Name { get; set; }
+        public override string Speed()
         {
-            return 150;
+            return $"{Name} has the top speed of {Velocity} mph";
         }
 
     }

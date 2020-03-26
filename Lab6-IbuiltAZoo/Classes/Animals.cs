@@ -12,7 +12,7 @@ namespace Lab6_IbuiltAZoo.Classes
         public virtual int BreathsPerMinute { get; set; }
         public abstract string MoveAround();
 
-        public string Name { get; set; } 
+        public virtual string Name { get; set; } 
     }
 
 }

@@ -1,12 +1,12 @@
 using System;
 using Xunit;
+using Lab6_IbuiltAZoo.Classes;
 
-
-namespace XUnitTestProject1
+namespace XUnitTestZoo
 {
     public class UnitTest1
     {
-        [Fact]
+            [Fact]
         public void TestEachClassInheritsBehavior()
         {
             BaldEagle baldEagle = new BaldEagle() { Name = "Birdie" };
@@ -14,7 +14,6 @@ namespace XUnitTestProject1
             string expected = ($"{ baldEagle.Name} has a big wing span");
         }
 
-        [Fact]
-
     }
 }
+
