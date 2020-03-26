@@ -8,16 +8,18 @@ namespace Lab6_IbuiltAZoo.Classes
     /// <summary>
     /// Derived from Wings and uses the IFly interface
     /// </summary>
-    class BaldEagle : Wings, IFly
+    public class BaldEagle : Wings, IFly
     {
         public override int Wingspan { get; set; } = 60;
         public bool HasWings { get; set; } = true;
         public int Velocity { get; set; } = 75;
 
-        protected virtual int Speed()
+        public override string Name { get; set; }  
+            
+        public override string Speed()
         {
-            string speed = "75";
-            return ("{Name} can fly over {speed} mph", Name, speed);
+            
+            return ($"{Name} can fly over {Velocity} mph");
         }
         
 

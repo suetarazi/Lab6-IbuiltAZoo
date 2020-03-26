@@ -14,10 +14,11 @@ namespace Lab6_IbuiltAZoo.Classes
         public bool HaveFins { get; set; } = true;
         public override bool HasHorn { get; set; } = true;
 
-        public string Name { get; set; }
+
+        public override string Name { get; set; }
         public string Sleep()
         {
-            return ("This animal sleeps while swimming");
+            return $"{Name} sleeps while swimming";
         }
 
         public override string Eats()

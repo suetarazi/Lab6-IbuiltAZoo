@@ -11,7 +11,7 @@ namespace Lab6_IbuiltAZoo
     /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
             Animals[] animals = new Animals[5];
             IFly[] fly = new IFly[3];
 
@@ -38,16 +38,23 @@ namespace Lab6_IbuiltAZoo
             for (int i = 0; i < fly.Length; i++)
             {
                 var canFly = fly[i];
-                if (canFly is LandAnimals)
+                if (canFly is Pegasus)
                 {
-                    var flier = (LandAnimals)canFly;
-                    flier.MoveAround();
+                    var flier = (Pegasus)canFly;
+                    string peg = flier.Speed();
+                    Console.WriteLine($"{peg}");
                 }
-                else if (canFly is WaterAnimals)
+                else if (canFly is BaldEagle)
                 {
-                    var swimmer = (WaterAnimals)canFly;
-                    string eat = swimmer.Eats();
-                    Console.WriteLine($"{eat}");
+                    var flier = (BaldEagle)canFly;
+                    string eagle = flier.Speed();
+                    Console.WriteLine($"{eagle}");
+                }
+                else if (canFly is Elephant)
+                {
+                    var flier = (Elephant)canFly;
+                    string elle = flier.Speed();
+                    Console.WriteLine($"{elle}");
                 }
             }
 
@@ -55,7 +62,7 @@ namespace Lab6_IbuiltAZoo
 
             for (int i = 0; i < animals.Length; i++)
             {
-                Console.WriteLine(animals[i]);
+                Console.WriteLine($"{ animals[i].Name} is a zoo animal");
             }
 
         }

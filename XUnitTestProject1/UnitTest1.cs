@@ -1,7 +1,6 @@
 using System;
 using Xunit;
-using Lab6-IbuiltAZoo.Classes;
-using Lab6-IbuiltAZoo.Interfaces;
+
 
 namespace XUnitTestProject1
 {

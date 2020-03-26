@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab6_IbuiltAZoo.Classes
 {
-    abstract class Stingray : NoLegs, ISwim
+    public class Stingray : NoLegs, ISwim
     {
         /// <summary>
         /// Derived from the NoLegs class and uses the ISwim interface
@@ -16,7 +16,7 @@ namespace Lab6_IbuiltAZoo.Classes
     
         public string Sleep()
         {
-            return ("This animal sleeps while swimming");
+            return ("We all gotta sleep sometime");
         }
 
         public override string Eats()

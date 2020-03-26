@@ -7,7 +7,7 @@ namespace Lab6_IbuiltAZoo.Classes
     /// <summary>
     /// Derived from the HasLegs class
     /// </summary>
-    abstract class Hippo : HasLegs
+    public class Hippo : HasLegs
     {
         public override string CoatType { get; set; } = "skin";
         public override string Eats()

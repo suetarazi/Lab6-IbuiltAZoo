@@ -14,6 +14,8 @@ namespace Lab6_IbuiltAZoo.Classes
 
         public override string CoatType { get; set; } = "feathers";
 
+        public override string Name { get; set; }
+
         public override string Eats()
         {
             return $"{Name} loves to eat fish";
