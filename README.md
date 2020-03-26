@@ -16,7 +16,7 @@ This application also makes use of interfaces, which contain method signatures o
 Clone this repository to your local machine.
 
 ```
-$ git clone [repo clone url here]
+$ git clone [https://github.com/suetarazi/Lab6-IbuiltAZoo](https://github.com/suetarazi/Lab6-IbuiltAZoo)
 ```
 
 ### To run the program from Visual Studio:
@@ -24,9 +24,9 @@ Select ```File``` -> ```Open``` -> ```Project/Solution```
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the ```Lab01-About-Me``` directory.
+Double click on the ```Lab6-IbuiltAZoo``` directory.
 
-Then select and open ```AboutMe.sln```
+Then select and open ```Lab6-IbuiltAZoo.sln```
 
 ---
 
