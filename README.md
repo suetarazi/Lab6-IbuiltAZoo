@@ -41,11 +41,9 @@ Then select and open ```Lab6-IbuiltAZoo.sln```
 #### Chart of Classes
 [Chart of Classes](https://files.slack.com/files-tmb/T039KG69K-F010DHUA7U2-16006027e6/img_8704_1024.jpg)
 #### Application Start
-![Image 1](https://via.placeholder.com/750x500)
-#### Using the Application
-![Image 1](https://via.placeholder.com/750x500)
-#### Application End
-![Image 1](https://via.placeholder.com/750x500)
+![Console Output](https://i.imgur.com/QdjB5GS.png)
+#### XUnit Tests
+![Unit Tests](https://i.imgur.com/fhCnPio.png)
 
 ---
 
